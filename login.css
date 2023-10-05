@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.midsec{
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+}
+.midsec1{
+    border: 1px solid black;
+    width: 32vw;
+    height: 65vh;
+    border-right: transparent;
+    background-color: rgb(45, 60, 60);
+}
+.midsec2{
+    border: 1px solid black;
+    width: 30vw;
+    height: 65vh;
+    border-left: transparent;
+    padding: 25px;
+}
+.midsec2 h3{
+    font-size: 25px;
+    text-align: center;
+}
+.midsec2 h4{
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+}
+
+.stack{
+    border: 1px solid rgba(rgb(202, 202, 202), rgb(202, 202, 202), rgb(202, 202, 202), 0.5);
+    background-color: rgba(rgb(202, 202, 202), rgb(202, 202, 202), rgb(202, 202, 202), 0.5);
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+.usericon1{
+    position: fixed;
+    border: 1px solid black;
+    padding: 2px;
+    margin-left: 35px;
+    padding: 2;
+    width: 32.5px;
+    height: 32.2px;
+    border-top-left-radius: 4.8px;
+    border-bottom-left-radius: 4.8px;
+}
+.usericon2{
+    position: fixed;
+    border: 1px solid black;
+    padding: 2px;
+    margin-left: 35px;
+    padding: 2;
+    width: 32.5px;
+    height: 32.2px;
+    border-top-left-radius: 4.8px;
+    border-bottom-left-radius: 4.8px;
+}
+.box{
+    border-left: transparent;
+    margin-left: 16.8%;
+    margin-bottom: 13px;
+    padding-left: 7px;
+    width: 70%;
+    height: 7.9%;
+    border: 1px solid rgb(144, 144, 144);
+    border-top-right-radius: 4.8px;
+    border-bottom-right-radius: 4.8px;
+    transition: 0.18s ease-in-out;
+}
+.box:focus{
+    border: 0.5px solid rgb(44, 44, 44);
+}
+.box:hover{
+    border: 0.5px solid rgb(44, 44, 44);
+}
+.loginbtn{
+    margin-left: 35px;
+    border: 1px solid black;
+    width: 160px;
+    height: 30px;
+    border-top-left-radius: 4.8px;
+    border-bottom-left-radius: 4.8px;
+}
+.loginbtn:hover{
+    border: 1px solid rgb(110, 110, 110);
+    color: rgb(110, 110, 110);
+    transition: 0.2s ease-in;
+}
+.signupbtn{
+   width: 147px;
+   height: 30px;
+   border: 1px solid black;
+   border-top-right-radius: 4.8px;
+   border-bottom-right-radius: 4.8px;
+   transition: 0.2s ease-in;
+}
+.signupbtn:hover{
+    border: 1px solid rgb(110, 110, 110);
+    color: rgb(110, 110, 110);
+}

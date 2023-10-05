@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="signup.css">
+    </head>
+    <body>
+        <div class="topmargin">
+
+        </div>
+        <div class="midsec">
+            <div class="stack">
+            <h3> Let's Get you signed it! </h3>
+            <form action="signup.php" method="post">
+                <div class="signupsec">
+                    <img src="usericon.png" class="usericon1">
+                    <input type="text" id="name" placeholder="ex: Ramesh" name="name" class="box" required><br>
+                    <img src="emailicon.png" class="usericon1">
+                    <input type="email" id="email" placeholder="ex: rameshm.2124@itmuniversity.org" name="email" class="box" required><br>
+                    <img src="emailicon.png" class="usericon1">
+                    <input type="email" id="confirmemail" placeholder="Please confirm your email" name="confirmemail" class="box" required><br>
+                    <img src="passwordicon.png" class="usericon1">
+                    <input type="password" id="password" placeholder="Password" name="password" class="box" required><br>
+                    <img src="passwordicon.png" class="usericon1">
+                    <input type="password" id="confirmpassword" placeholder="confirm your password" name="confirmpassword" class="box" required><br>
+                    <img src="dobicon.png" class="usericon1">
+                    <input type="date" id="dob" placeholder="date of birth" name="dob" class="box"><br>
+                    <button type="submit" class="signupbtn"> Sign Up </button>
+                    <button onclick="myFunction()" class="loginbtn"> Login </button>
+                            <script>
+                                function myFunction(){
+                                    const filename="login.html";
+                                    const baseUrl = window.location.href;
+                                    const fileUrl = new URL(filename, baseUrl);
+                                    window.open(fileUrl.href, '_blank');
+                                }
+                                
+                            </script> 
+                </div>
+            </div>
+            </form>
+        </div>
+        
+    </body>
+</html>

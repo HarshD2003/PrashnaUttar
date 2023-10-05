@@ -1,0 +1,23 @@
+<html>
+<head>
+    <link rel="stylesheet" href="verification.css">
+</head>
+<body>
+    <div class="topmargin"></div>
+    <div class="midsec">
+        <h3> Let's get you verified! </h3>
+        <div class="contentbox">
+            <form action="verification.php" method="post">
+                <input type="email" id="email" name="email" class="box" placeholder="Your Email That you signed up with" required><br>
+                <input type="submit" value="Send OTP" class="button">
+            </form>
+            <form action="otpverification.php" method="post">
+                <!-- Hidden input field to store the email value -->
+                <input type="hidden" name="email" value="<?php echo isset($_POST['email']) ? $_POST['email'] : ''; ?>">
+                <input type="number" name="otp" id="otp" class="box" placeholder="Your OTP" required>
+                <input type="submit" value="Verify OTP" class="button">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

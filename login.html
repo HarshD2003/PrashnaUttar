@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <div class="initial">
+            <div class="topmargin">
+                
+            </div>
+            <div class="midsec">
+                <div class="midsec1">
+
+                </div>
+                <div class="midsec2">
+                    <div class="stack">
+                        <h4> User Login </h4><br>
+                        <form action="login.php" method="post">
+                            <img src="usericon.png" class="usericon1">
+                            <input type="email" id="email" name="email" placeholder="ex: abc@gmail.com" class="box"><br>
+                            <img src="lockicon.png" class="usericon2">
+                            <input type="password" class="box" id="password" name="password" placeholder="Your Password" required><br>
+                            <button type="submit" class="loginbtn"> Login </button>
+                            <button onclick="myFunction()" class="signupbtn"> SignUp</button>
+                            <script>
+                                function myFunction(){
+                                    const filename="signup.html";
+                                    const baseUrl = window.location.href;
+                                    const fileUrl = new URL(filename, baseUrl);
+                                    window.open(fileUrl.href, '_blank');
+                                }
+                                
+                            </script>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="bottomsec">
+                
+            </div>
+        </div>
+    </body>
+</html>

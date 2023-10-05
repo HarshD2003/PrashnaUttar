@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.topmargin{
+    border: 1px solid transparent;
+    width: 100vw;
+    height: 13.5vh;
+    position: absolute;
+}
+.midsec{
+    padding: 20px;
+    margin-top: 100px;
+    position: relative;
+    border: 1px solid black;
+    width: 40vw;
+    height: 71vh;
+}
+.midsec h3{
+    text-align: center;
+    font-size: 27px;
+    margin-top: 23%;
+}
+.contentbox{
+    margin-top: 2%;
+    border: 1px solid transparent;
+    padding-left: 17%;
+}
+.box{
+    padding-left: 7px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 0.5px solid black;
+    width: 77%;
+    height: 6.7%;
+    border-radius: 2px;
+}
+.button{
+    border: 0.7px solid black;
+    width: 77%;
+    height: 6.7%;
+}
